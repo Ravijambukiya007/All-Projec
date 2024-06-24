@@ -1,0 +1,632 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+
+.container {
+    max-width: 1280px;
+    padding: 10px 4px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Lexend", sans-serif;
+}
+
+.ravi {
+    background-color: #43DF9A;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+
+}
+
+.main {
+    gap: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 10px 0px 10px 0px;
+
+}
+
+.dealbuddy-logo {
+    height: 44px;
+}
+
+.city {
+    padding: 10px 50px;
+    border-radius: 10px;
+    border: 1px solid white;
+    width: 100%;
+    outline: none;
+
+
+}
+
+.city-dropdown {
+    max-width: 200px;
+    position: relative;
+    width: 100%;
+}
+
+.search-bar {
+    max-width: 300px;
+    width: 100%;
+}
+
+.search-bar input {
+    width: 100%;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 12px;
+    padding: 11px 30px;
+    outline: none;
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 8px;
+    color: rgba(67, 223, 154, 1);
+    transform: translateY(-50%);
+}
+
+.search {
+    position: relative;
+}
+
+.icon-search {
+
+    position: absolute;
+    left: 330px;
+    top: -20px;
+    color: #333;
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+.para {
+    flex-shrink: 0;
+    text-align: right;
+    color: white;
+
+}
+
+.search-area {
+    display: flex;
+    gap: 24px;
+    flex-shrink: 1;
+    width: 50%;
+
+}
+
+.nav1 {
+    background-color: #3bcc8b;
+}
+
+
+.nav {
+
+    width: 1280px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    align-items: center;
+    cursor: pointer;
+
+
+}
+
+.navbar {
+    display: flex;
+
+    gap: 80px;
+}
+
+#dot {
+    padding-inline-start: 0px;
+    list-style: none;
+}
+
+#dot a {
+    color: white;
+    text-decoration: none;
+    outline: none;
+}
+
+#dot li {
+    display: flex;
+    gap: 40px;
+}
+
+.user {
+    display: flex;
+    gap: 50px;
+
+    position: relative;
+}
+
+
+.user button {
+    padding: 17.5px;
+    background: #2dc17f;
+    border: none;
+    color: white;
+}
+
+/* footer */
+
+.footer {
+    background: #43DF9A0D;
+}
+
+.footer-logo {
+
+
+    font-size: 14px;
+    line-height: 20px;
+    flex: 0 0 auto;
+    display: flex;
+    width: 100%;
+}
+
+.mainfooter {
+    flex: 0 0 auto;
+    width: 30%;
+}
+
+.mainfooter p {
+    padding-top: 30px;
+}
+
+
+.pare {
+    width: 250px;
+    line-height: 61px;
+}
+
+.pare ul {
+    list-style: none;
+}
+
+.pare a {
+    text-decoration: none;
+    color: black;
+}
+
+.pare i {
+    font-size: 15px;
+    color: rgba(67, 223, 154, 1);
+}
+
+
+.pare li {
+
+    border-bottom: 1.5px dotted #333;
+    list-style: none;
+
+}
+
+.footersid li {
+    border-bottom: 1.5px dotted #333;
+
+    line-height: 65px;
+    width: 100%;
+}
+
+.footer-col {
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+.flx3 {
+    display: flex;
+    width: 68%;
+    align-items: center;
+    gap: 50px;
+    margin: 14px;
+    line-height: 30px;
+    justify-content: space-between;
+}
+
+.footersid {
+    width: 302px;
+    line-height: 47px;
+    padding-top: 5px;
+}
+
+.footersid a {
+    text-decoration: none;
+    color: black;
+}
+
+.img {
+    padding-top: 23px;
+}
+
+.lorem {
+    padding: 10px;
+}
+
+.plogo {
+    display: flex;
+}
+
+#buddy {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.meta {
+    align-items: center;
+    display: flex;
+}
+
+#para {
+    padding-left: 45%;
+    padding-right: 20px;
+}
+
+.facebook {
+    padding-right: 7px;
+}
+
+
+
+/* midel */
+
+
+.boxis {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.cata-img {
+    padding-top: 5px;
+}
+
+.cata-img h1 {
+    padding: 20px 0px 20px 0px;
+}
+
+.Travel:hover {
+    background-color: #43DF9A26;
+
+}
+
+.Travel {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    max-width: 196px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Travel a {
+    text-decoration: none;
+    color: black;
+}
+
+.travel-img {
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+.Travel p {
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.second-box {
+    display: flex;
+    gap: 19px;
+    padding-top: 15px;
+}
+
+
+.hading-h1 h1 {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.hading-h4 h4 {
+    padding: 10px 0px 10px 10px;
+}
+
+.sort-by {
+    padding: 10px 0px 10px 10px;
+}
+
+.sort-by h5 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.radio {
+    padding: 10px 20px 10px 10px;
+    line-height: 30px;
+}
+
+.radio input[type="radio"]:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #fff;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #eee;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -17px;
+    left: -1px;
+    position: relative;
+    background-color: #fff;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #43DF9A;
+}
+
+input[type='radio']:checked:before {
+    width: 9px;
+    height: 9px;
+    border-radius: 15px;
+    top: 0;
+    left: 4px;
+    position: relative;
+    background-color: #43DF9A;
+    content: '';
+    z-index: 1;
+    display: inline-block;
+    visibility: visible;
+}
+
+
+
+.secound-mode input {
+    accent-color: #43DF9A;
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.deal-mode {
+    padding: 10px 0px 10px 10px;
+
+}
+
+.mode {
+    padding: 0px 20px 10px 20px;
+    line-height: 30px;
+}
+
+.secound-mode {
+    border-bottom: 1px solid #00000026;
+    padding-bottom: 10px;
+
+}
+
+.deal-mode h5 {
+
+    padding-bottom: 10px;
+}
+
+.type {
+    padding: 10px 0px 10px 10px;
+}
+
+.Discount-Type {
+    padding: 10px 0px 10px 20px;
+    line-height: 30px;
+}
+
+.Filter {
+    border: 1px solid #00000026;
+    width: 22%;
+    height: 100%;
+    border-radius: 10px;
+    position: sticky;
+    top: 0px;
+}
+
+
+
+
+.sale-flex {
+    display: flex;
+    gap: 20px;
+}
+
+.two-option {
+    display: flex;
+    gap: 10px;
+    width: 34%;
+    background-color: #0000000D;
+
+
+}
+
+.sale-hover:hover {
+    background-color: #43DF9A26;
+}
+
+.sale-hover p:hover {
+    color: #43DF9A;
+}
+
+.two-option p {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 40px;
+    border: none;
+    font-size: 20px;
+}
+
+
+.two-option a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+.nw-store button:hover {
+    background-color: rgb(241, 241, 21);
+    color: black;
+}
+
+
+.box-img {
+    display: flex;
+    gap: 25px;
+}
+
+.img-store6 {
+    justify-content: space-between;
+    display: flex;
+    padding-top: 20px;
+}
+
+.ractangle6 {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    width: 305px;
+    border-radius: 11px;
+    border-top: none;
+    position: relative;
+}
+
+.iconepara {
+    position: relative;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconepara p {
+    position: absolute;
+    font-size: 15px;
+    top: 15px;
+    padding: 10px 20px;
+    left: 15px;
+    background: rgba(0, 0, 0, 0.75);
+    color: white;
+    border-radius: 5px;
+}
+
+.iconepara i {
+    position: absolute;
+    border: 1px solid black;
+    top: 12px;
+    left: 82%;
+    font-size: 15px;
+    background: rgba(0, 0, 0, 0.75);
+
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.ractangle6 p {
+    font-size: 12px;
+}
+
+.ractangle6 span {
+    font-size: 20px;
+}
+
+.ractangle6 img {
+    width: 100%;
+}
+
+.nw-store button {
+    background-color: #43DF9A;
+    color: white;
+    border: none;
+    padding: 10px 4px;
+    margin: 15px 11px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 90%;
+}
+
+.offer {
+    padding: 7px 0px 9px 15px;
+}
+
+.offer p {
+    padding: 0px 0px 12px 3px;
+}
+
+.nw-store {
+    list-style: none;
+    padding: 6px 0px 7px 7px;
+}
+
+.nw-store li {
+    font-family: 'Lexend';
+    padding: 8px;
+}
+
+.ractangle6:hover .hover {
+    display: block;
+}
+
+.hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 6px 0px 5px 0px;
+    position: absolute;
+    top: 35%;
+    left: 68px;
+    width: 100%;
+    margin: 0px -68px;
+    text-align: center;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+.second-rect {
+    display: flex;
+    gap: 25px;
+}
+
+.therd-ract {
+    display: flex;
+    gap: 25px;
+}

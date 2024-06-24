@@ -1,0 +1,333 @@
+* {
+    padding: 0%;
+    margin: 0px;
+}
+
+
+
+
+.container {
+    max-width: 1280px;
+    padding: 10px 4px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Lexend", sans-serif;
+}
+
+.ravi {
+    background-color: #43DF9A;
+}
+
+.main {
+    gap: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 10px 0px 10px 0px;
+
+}
+
+.dealbuddy-logo {
+    height: 44px;
+}
+
+.city {
+    padding: 10px 50px;
+    border-radius: 10px;
+    border: 1px solid white;
+    width: 100%;
+    outline: none;
+
+
+}
+
+.city-dropdown {
+    max-width: 200px;
+    position: relative;
+    width: 100%;
+}
+
+.search-bar {
+    max-width: 300px;
+    width: 100%;
+}
+
+.search-bar input {
+    width: 100%;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 12px;
+    padding: 11px 30px;
+    outline: none;
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 8px;
+    color: rgba(67, 223, 154, 1);
+    transform: translateY(-50%);
+}
+
+.search {
+    position: relative;
+}
+
+.icon-search {
+
+    position: absolute;
+    left: 330px;
+    top: -20px;
+    color: #333;
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+.para {
+    flex-shrink: 0;
+    text-align: right;
+    color: white;
+
+}
+
+.search-area {
+    display: flex;
+    gap: 24px;
+    flex-shrink: 1;
+    width: 50%;
+
+}
+
+.nav1 {
+    background-color: #3bcc8b;
+}
+
+
+.nav {
+
+    width: 1280px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    align-items: center;
+    cursor: pointer;
+
+
+}
+
+.navbar {
+    display: flex;
+
+    gap: 80px;
+}
+
+#dot {
+    padding-inline-start: 0px;
+    list-style: none;
+}
+
+#dot a {
+    color: white;
+    text-decoration: none;
+    outline: none;
+}
+
+#dot li {
+    display: flex;
+    gap: 40px;
+}
+
+.user {
+    display: flex;
+    gap: 50px;
+
+    position: relative;
+}
+
+
+.user button {
+    padding: 17.5px;
+    background: #2dc17f;
+    border: none;
+    color: white;
+}
+
+
+/* footer */
+
+
+.footer {
+    background: #43DF9A0D;
+}
+
+.footer-logo {
+
+
+    font-size: 14px;
+    line-height: 20px;
+    flex: 0 0 auto;
+    display: flex;
+    width: 100%;
+}
+
+.mainfooter {
+    flex: 0 0 auto;
+    width: 30%;
+}
+
+.mainfooter p {
+    padding-top: 30px;
+}
+
+
+.pare {
+    width: 250px;
+    line-height: 61px;
+}
+
+.pare ul {
+    list-style: none;
+}
+
+.pare a {
+    text-decoration: none;
+    color: black;
+}
+
+.pare i {
+    font-size: 15px;
+    color: rgba(67, 223, 154, 1);
+}
+
+
+.pare li {
+
+    border-bottom: 1.5px dotted #333;
+    list-style: none;
+
+}
+
+.footersid li {
+    border-bottom: 1.5px dotted #333;
+
+    line-height: 65px;
+    width: 100%;
+}
+
+.footer-col {
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+.flx3 {
+    display: flex;
+    width: 68%;
+    align-items: center;
+    gap: 50px;
+    margin: 14px;
+    line-height: 30px;
+    justify-content: space-between;
+}
+
+.footersid {
+    width: 302px;
+    line-height: 47px;
+    padding-top: 5px;
+}
+
+.footersid a {
+    text-decoration: none;
+    color: black;
+}
+
+.img {
+    padding-top: 23px;
+}
+
+.lorem {
+    padding: 10px;
+}
+
+.plogo {
+    display: flex;
+}
+
+#buddy {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.meta {
+    align-items: center;
+    display: flex;
+}
+
+#para {
+    padding-left: 45%;
+    padding-right: 20px;
+}
+
+.facebook {
+    padding-right: 7px;
+}
+
+
+
+
+/* mwdal */
+
+h1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+span {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+details {
+    border: 1px solid #d4d4d4;
+    padding: .75em 1.75em 0;
+    margin-top: 10px;
+    box-shadow: 0 0 20px #d4d4d4;
+
+}
+
+
+summary {
+    font-weight: bold;
+    margin: -.75em -.75em 0;
+    padding: .75em;
+    background-color: white;
+    color: rgb(34, 34, 34);
+    cursor: pointer;
+
+}
+
+details[open] {
+    padding: .75em;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #d4d4d4;
+    margin-bottom: 10px;
+}
+
+.detail-summry {
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+}

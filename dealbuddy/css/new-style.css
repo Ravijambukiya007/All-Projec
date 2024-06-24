@@ -1,0 +1,153 @@
+.container {
+    max-width: 1280px;
+    padding: 0px 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Lexend", sans-serif;
+}
+
+.ravi {
+    background-color: #43DF9A;
+}
+
+.main {
+    gap: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 10px 0px 10px 0px;
+
+}
+
+.dealbuddy-logo {
+    height: 44px;
+}
+
+.city {
+    padding: 10px 50px;
+    border-radius: 10px;
+    border: 1px solid white;
+    width: 100%;
+    outline: none;
+
+
+}
+
+.city-dropdown {
+    max-width: 200px;
+    position: relative;
+    width: 100%;
+}
+
+.search-bar {
+    max-width: 300px;
+    width: 100%;
+}
+
+.search-bar input {
+    width: 100%;
+    position: relative;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 12px;
+    padding: 11px 30px;
+    outline: none;
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 8px;
+    color: rgba(67, 223, 154, 1);
+    transform: translateY(-50%);
+}
+
+.search {
+    position: relative;
+}
+
+.icon-search {
+
+    position: absolute;
+    left: 330px;
+    top: -20px;
+    color: #333;
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+.para {
+    flex-shrink: 0;
+    text-align: right;
+    color: white;
+
+}
+
+.para p {
+    font-size: 12px;
+}
+
+.search-area {
+    display: flex;
+    gap: 24px;
+    flex-shrink: 1;
+    width: 50%;
+
+}
+
+.nav1 {
+    background-color: #3bcc8b;
+}
+
+
+.nav {
+
+
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    align-items: center;
+    cursor: pointer;
+
+
+
+}
+
+.login {
+    padding-left: 100px;
+}
+
+.navbar {
+    display: flex;
+
+    gap: 80px;
+}
+
+#dot {
+    padding-inline-start: 0px;
+    list-style: none;
+}
+
+#dot a {
+    color: white;
+    text-decoration: none;
+    outline: none;
+}
+
+#dot li {
+    display: flex;
+    gap: 40px;
+}
+
+.user {
+    display: flex;
+    gap: 50px;
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+}
